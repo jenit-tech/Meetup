@@ -1,0 +1,98 @@
+.register-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+
+.register-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  height: 70vh;
+}
+
+.register-image {
+  width: 40%;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 60%;
+  margin-top: 20px;
+}
+
+.register-heading {
+  color: #334155;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.register-label {
+  color: #7b8794;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.register-input {
+  color: #7b8794;
+  font-size: 18px;
+  font-weight: 700;
+  height: 40px;
+  width: 50%;
+  outline: none;
+  border: 1px solid #7b8794;
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+
+.register-select {
+  color: #334155;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  height: 40px;
+  width: 50%;
+  outline: none;
+  border: 1px solid #7b8794;
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+
+.register-option {
+  color: #334155;
+  font-size: 18px;
+}
+
+.register-button {
+  color: #ffffff;
+  background-color: #2563eb;
+  font-size: 18px;
+  font-weight: 700;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #ff0b37;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+}
